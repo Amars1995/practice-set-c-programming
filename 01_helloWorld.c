@@ -1,9 +1,28 @@
-#include <stdio.h>
+// #include <stdio.h>
 
-int main()
-{
-    int a = 28;
-    printf("%d Hello world \n", a);
+// int main()
+// {
+//     int result = '8' + 12;
 
-    return 0;
-}
+//     // int a = 28;
+//     printf("%d \n", result);
+
+//     return 0;
+// }
+
+# include <stdio.h>
+# include <stdbool.h>
+     int main(){
+        // bool value1= true;
+        // bool value2= false;
+        // bool value =(5 > 9);
+        bool value =(5 == 9);
+        printf("%d", value);
+
+
+        // printf("%d", value1);
+        // printf("%d", value2);
+
+        return 0;
+
+     }
